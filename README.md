@@ -1,4 +1,4 @@
-# FitnessApp (NEAR FIELD COMMUNICATION).
+# Device-Price-Classification-System-Python-API (NEAR FIELD COMMUNICATION).
 
 #### HOW TO SETUP ON LOCAL Development:
 
@@ -62,7 +62,7 @@ device-price-classification-project
          ---->crons #(In order to send notifications in a scheduled and organized manner)
               ----> not_start_training_program_notification_cron # send notifications in not start program case
               ----> finishes_training_program_notification_cron # send notifications in finished program case
-         ----> reposiories # (this handle apis and respose for fitness app )
+         ----> reposiories # (this handle apis and respose for predict app )
               ----> event #: have event apis
                     ----> platform #: this in case we will have multi platforms in future (website, dahboard, mobile...)
                           ----> commom #: this have common apis and serializers between (website, dahboard, mobile...) 
@@ -75,9 +75,11 @@ device-price-classification-project
 ----> urls #  content v1 urls
 ```
 ##### Train Accuracy: 0.9914285714285714
-![alt text](image-2.png)
-##### POST MAN
- ![alt text](image.png)
+![alt text](images/image-2.png)
 
  ##### Test Accuracy: 0.9815
-![alt text](image-1.png)
+![alt text](images/image-1.png)
+
+![alt text](images/image-3.png)
+##### POST MAN
+ ![alt text](images/image.png)
