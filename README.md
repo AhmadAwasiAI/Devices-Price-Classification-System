@@ -62,21 +62,24 @@ device-price-classification-project
         
          ----> reposiories # (this handle apis and respose for predict app )
               ----> predict #: have event apis
-                    ----> platform #: this in case we will have multi platforms in future (website, dahboard, mobile...)
-                          ----> commom #: this have common apis and serializers between (website, dahboard, mobile...) 
-                          ----> mobile: ...
-                          ...
-                          ...
+                    ----> api #: this have predict api
+                           
                   
 ----> settings # (configration projects (database, apps, ...) )
 ----> urls #  content v1 urls
 ```
-##### Train Accuracy: 0.9914285714285714
+### Train Accuracy: 0.9914285714285714
 ![alt text](images/image-2.png)
 
- ##### Test Accuracy: 0.9815
+-----
+
+ ### Test Accuracy: 0.9815
 ![alt text](images/image-1.png)
 
+-----
+
 ![alt text](images/image-3.png)
-##### POST MAN
+-----
+
+### POST MAN
  ![alt text](images/image.png)
