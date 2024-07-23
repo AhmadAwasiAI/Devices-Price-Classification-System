@@ -1,0 +1,11 @@
+Django~=5.0.7
+djangorestframework==3.15.2
+setuptools==65.0.1
+django-environ==0.9.0
+django-cors-headers==4.4.0
+djangorestframework-api-key==2.2.0
+django-cron==0.6.0
+psycopg2==2.9.5
+requests~=2.28.1
+coreapi~=2.3.3
+pickles==0.1.1
