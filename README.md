@@ -59,18 +59,15 @@ device-price-classification-project
 ---->micro_services
    ----> base # (this have base class api, baseresponse... ) 
    ----> device # (device service )
-         ---->crons #(In order to send notifications in a scheduled and organized manner)
-              ----> not_start_training_program_notification_cron # send notifications in not start program case
-              ----> finishes_training_program_notification_cron # send notifications in finished program case
+        
          ----> reposiories # (this handle apis and respose for predict app )
-              ----> event #: have event apis
+              ----> predict #: have event apis
                     ----> platform #: this in case we will have multi platforms in future (website, dahboard, mobile...)
                           ----> commom #: this have common apis and serializers between (website, dahboard, mobile...) 
                           ----> mobile: ...
                           ...
                           ...
-                    ----> TDD # : this folder have TestCase for events in every platforms 
-          
+                  
 ----> settings # (configration projects (database, apps, ...) )
 ----> urls #  content v1 urls
 ```
